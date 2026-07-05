@@ -20,7 +20,7 @@
    
 假设从头结点到环形入口节点的节点数为x。环形入口节点到fast指针与slow指针相遇节点节点数为y。从相遇节点再到环形入口节点节点数为z
 
-![alt text](image.png)
+![alt text](attachments/环形链表-001.png)
 
 那么相遇时： slow指针走过的节点数为: x + y， fast指针走过的节点数：x + y + n (y + z)，n为fast指针在环内走了n圈才遇到slow指针， （y+z）为一圈内节点的个数A。
 
